@@ -1,0 +1,213 @@
+body {
+    margin: 0px;
+    background-image:url(Workspace.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: black;
+    
+}
+
+h1 {
+    color: #e3dbcb;
+    font-family: "Nunito";
+    text-align: center;
+    font-weight: 400;
+    font-size: 40px;
+}
+
+hr {
+   width: 250px;
+}
+
+a {
+    color:white;
+    font-family: "Nunito";
+}
+
+#overlay {
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+#centerDiv {
+    padding-top: 8vh;
+}
+
+#profilePic {
+    width:150px;
+    border-radius: 100%;
+    border: 3px solid #fff;
+    border-radius: 100%;
+    display: block;
+    margin:0 auto;
+    opacity: 100;
+    
+}
+
+#name {
+    margin-bottom: 0;
+}
+
+#description {
+    font-size: 15px;
+}
+
+#mainSeperator {
+    margin-top: 15px;
+    width: 130px;
+    
+}
+
+button {
+    color: floralwhite;
+    background-color: transparent;
+    font-size: 15px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    border: 2px solid;
+    border-radius: 25px;
+    border-color: floralwhite;
+    height: 35px;
+    width: 100px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #4a4848;
+}
+
+#buttonDiv {
+    width: 452px;
+    display: block;
+    margin:0 auto;
+}
+
+@media screen and (max-width:480px) {
+    #buttonDiv {
+        width: 226px;
+    }   
+}
+
+.sectionSeperator {
+    width: 500px;
+    margin-top: 30px;
+}
+
+#aboutDIV {
+    display: none;
+}
+
+.aboutHeading {
+    margin-top: 15px;
+    font-size: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+#infoDiv{
+    width:400px;
+    margin:0 auto;
+    display: flex;
+}
+
+@media screen and (max-width:480px) {
+    #infoDiv {
+        display:block;
+    }
+    #overlay {
+        height: 100%;
+    }
+}
+
+.shortLine {
+    width: 50px;
+    margin-bottom: 10px;
+    margin-left: 0px;
+}
+
+.listTitle {
+    margin-top: 12px;
+    font-size: 20px;
+    text-align: left;
+    margin: 0;
+    margin-bottom: 0px;
+}
+
+#skillsList {
+    font-family: "Nunito";
+    color: floralwhite;
+    margin: 10px;
+    margin-left: 0px;
+    padding-left: 15px;
+    padding-right: 90px;
+}
+
+#linksList {
+    font-family: "Nunito";
+    color: floralwhite;
+    margin: 10px;
+    margin-left: 0px;
+    padding-left: 15px;
+}
+
+#portfolioDIV {
+    display: none;
+    width:600px;
+    margin:0 auto;
+}
+
+#projectsDiv {
+    
+}
+
+.projectHeader {
+    text-align: left;
+    font-size: 30px;
+    margin:0px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.projectLink {
+    padding-left: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.projectDesc {
+    color: #e3dbcb;
+    font-family: "Nunito";
+    text-align: left;
+    font-weight: 400;
+    font-size: 15px;
+    margin:0px;
+    margin-top: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#lastOne {
+    margin-top: 40px;
+    padding-bottom: 40px;
+}
+
+@media screen and (max-width:480px) {
+    #portfolioDIV {
+        width: 100%;
+    }
+}
+
+
+#contactDIV {
+    display: none;
+}
+
+#email {
+    font-size: 20px;
+}
+
+
+
