@@ -120,6 +120,9 @@ button:hover {
     #overlay {
         height: 100%;
     }
+    .sectionSeperator {
+        width:  100%;
+    }
 }
 
 .shortLine {
