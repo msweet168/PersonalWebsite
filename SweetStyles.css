@@ -119,6 +119,7 @@ button:hover {
     }
     #overlay {
         height: 100%;
+        width: 100%;
     }
     .sectionSeperator {
         width:  150px;
