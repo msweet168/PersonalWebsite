@@ -16,6 +16,12 @@ h1 {
     font-size: 40px;
 }
 
+h3 {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 100;
+}
+
 hr {
    width: 250px;
 }
@@ -25,8 +31,26 @@ a {
     font-family: "Nunito";
 }
 
+/* For everything to go back to the way it was, first, delete backpic, second, amke the height in overlay 100vh and delete everything else except for background color. */
+
+#backpic {
+    height: 100%;
+    width: 100vw;
+    background-image:url(Workspace.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: inline-block;
+    position: absolute;
+}
+
+
 #overlay {
-    height: 100vh;
+    height: 100%;
+    width: 100vw;
+    background-color: blue;
+    display: inline-block;
+    position: absolute;
     background-color: rgba(0, 0, 0, 0.9);
 }
 
