@@ -156,14 +156,15 @@ button:hover {
         width:  150px;
     }
     
-    .aboutHeading {
+    #tagLine {
         text-align: left;
-        font-size: 0.9em;
+        font-size: 1.0em;
     }
     
-    .aboutHeading br {
-        display: none;
+    #tagLine br {
+         display: none;
     }
+    
 }
 
 .shortLine {
