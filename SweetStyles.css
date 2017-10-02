@@ -131,15 +131,22 @@ button:hover {
     margin-left: 10px;
 }
 
+#personalEmail {
+    padding-bottom: 25px;
+}
+
 #infoDiv{
     width:400px;
     margin:0 auto;
     display: flex;
+    padding-left: 8px;
+    padding-bottom: 25px;
 }
 
 @media screen and (max-width:480px) {
     #infoDiv {
         display:block;
+        width: 90%;
     }
     #overlay {
         height: 100%;
@@ -219,7 +226,7 @@ button:hover {
 
 #lastOne {
     margin-top: 40px;
-    padding-bottom: 40px;
+    padding-bottom: 50px;
 }
 
 @media screen and (max-width:480px) {
