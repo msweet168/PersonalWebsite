@@ -155,6 +155,15 @@ button:hover {
     .sectionSeperator {
         width:  150px;
     }
+    
+    .aboutHeading {
+        text-align: left;
+        font-size: 0.9em;
+    }
+    
+    .aboutHeading br {
+        display: none;
+    }
 }
 
 .shortLine {
