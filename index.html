@@ -4,143 +4,156 @@
 	<title>Mitchell Sweet</title>
 	<meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width,initial-scale=1">
-	<link rel="stylesheet" type="text/css" href="SweetStyles.css">
+    <link rel="stylesheet" type="text/css" href="SweetStyles.css">
     <script type="text/javascript" src="sweetScripts.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Nunito:400,600,700" rel="stylesheet">
     <!--<link rel="shortcut icon" href="favicon.png">-->
 </head>
-	
+
 <body>
-    
-   <div id="backpic">
+
+ <div id="backpic">
     <div id = "overlay">
         <div id="centerDiv">
             <img id="profilePic" src="Profilepic.jpg" />
         </div>
         <h1 id="name">Mitchell Sweet</h1>
         <hr>
-        <!-- <h1 id="description">App Developer | UI/UX Designer | Programmer</h1> -->
-        <h1 id="description">Front-End Developer | Mobile Developer | Student at Rochester Institute of Technology</h1>
+        <h1 id="description">Web and Mobile Engineer | Student at Rochester Institute of Technology</h1>
         <hr id="mainSeperator">
         
-    <!--<div id = "dubdublink">
-        <h3><a href = "wwdc.html">WWDC 17 Scholarship Blog</a></h3>    
+
+<div id="buttonDiv">
+    <button onclick="showAbout()" id="aboutButton">About</button>
+    <button onclick="showPortfolio()" id="portfolioButton">Portfolio</button>
+    <button onclick="showContact()" id="contactButton">Contact</button>
+    <button onclick="window.open('Sweet_Resume.pdf');" id="resumeButton">Resume</button>
+</div>
+
+
+<div id="aboutDIV">
+    <hr class="sectionSeperator">
+    <h1 id="tagLine" class="aboutHeading">Hello! I love mobile and web development <br> and have done some pretty <span style="font-style: italic;">sweet</span> projects with them.</h1>
+    <div id = "infoDiv">
+        <ul id="skillsList">
+            <h1 class="listTitle">Skills</h1>
+            <hr class="shortLine">
+            <li>Swift/Objective-C</li>
+            <li>Java/Kotlin</li>
+            <li>Javascript</li>
+            <li>HTML/CSS</li>
+            <li>MySQL</li>
+            <li>PHP</li>
+            <li>Photoshop/Sketch</li>
+        </ul>
+
+        <ul id="linksList">
+            <h1 class="listTitle">Links</h1>
+            <hr class="shortLine">
+            <li><a href="http://github.com/msweet168">GitHub</a></li>
+            <li><a href="https://www.linkedin.com/in/mitchellsweet/">LinkedIn</a></li>
+        </ul>
     </div>
-    -->
-        
-    <div id="buttonDiv">
-        <button onclick="showAbout()" id="aboutButton">About</button>
-        <button onclick="showPortfolio()" id="portfolioButton">Portfolio</button>
-        <button onclick="showContact()" id="contactButton">Contact</button>
-        <button onclick="window.open('Sweet_Resume.pdf');" id="resumeButton">Resume</button>
-    </div>
-        
-        
-    <div id="aboutDIV">
-        <hr class="sectionSeperator">
-        <h1 id="tagLine" class="aboutHeading">I am a mobile app developer and a front end web developer<br> studying at Rochester Institute of Technology.</h1>
-        <div id = "infoDiv">
-            <ul id="skillsList">
-                <h1 class="listTitle">Skills</h1>
-                <hr class="shortLine">
-                <li>Swift</li>
-                <li>Objective-C</li>
-                <li>Java</li>
-                <li>HTML/CSS/JS</li>
-                <li>Photoshop/Sketch</li>
-            </ul>
-            
-            <ul id="linksList">
-                <h1 class="listTitle">Links</h1>
-                <hr class="shortLine">
-                <li><a href="http://github.com/msweet168">GitHub</a></li>
-                <li><a href="http://sweetdevelop.com">iOS Portfolio</a></li>
-                <li><a href="https://www.linkedin.com/in/mitchellsweet/">LinkedIn</a></li>
-            </ul>
-        </div>
-    </div>
-        
-    <div id="portfolioDIV">
-        <hr class="sectionSeperator">
-        <h1 class="aboutHeading">See all of my live iOS apps at <a href="http://sweetdevelop.com">sweetdevelop.com</a></h1>
-        <div id="projectsDiv">
-            
+</div>
+
+<div id="portfolioDIV">
+    <hr class="sectionSeperator">
+    <h1 class="aboutHeading">See all of my live iOS apps at <a href="http://sweetdevelop.com">sweetdevelop.com</a></h1>
+    <div id="projectsDiv">
+
+        <h1 class="projectHeader">Station Controller</h1>
+        <a href="https://www.masprojects.site/stationcontroller/" class="projectLink">Website Link</a>
+        <p class="projectDesc">Station Controller automates a model roller coaster, making it easy for the operators to control it and allows guests to interact with it. The Arduino controls motors in the station that power the coaster's lift hill and dispatch system, as well as open and close the station gates. The two part iOS application allows operators to wirelessly control all aspects of the model while guests can control the station gates and dispatch the train using the guest UI.  <a href="https://github.com/msweet168/StationController" > open source on GitHub. Written in Swift and Arduino C++.</a>
+        </p> 
+
+        <br>
+        <br>
+
         <h1 class="projectHeader">taskIt</h1>
         <a href="http://apple.co/2ragJT9" class="projectLink">App Store Link</a>
         <p class="projectDesc"> taskIt is a fun and simple app which will help you be productive and organize your life. You can add standalone tasks or you can add events, which group tasks for one specific purpose. If you have trouble focusing on a task, Hyper Focus will help you manage your breaks and even tell you to stay focused when you pick up your phone.
         </p>  
-            
+
         <br>
         <br>
-            
+
+        <h1 class="projectHeader">FLIC</h1>
+        <a href="https://github.com/msweet168/FLIC" class="projectLink">GitHub Link</a>
+        <p class="projectDesc">FLIC, or Fantastic Light Illumination Controller, is a smart home device that uses IR LED lights to control an assortment of smart home devices, specifically IR lights. FLIC consists of two parts, the device and the app. The device consists of an Arduino connected to the HM-10 bluetooth chip and an IR LED. The user can use the app to control the lights through the Arduino. Written in Swift and Arduino C++.<a href="https://github.com/msweet168/FLIC" > open source on GitHub.</a>
+        </p> 
+
+        <br>
+        <br>
+
         <h1 class="projectHeader">Max Camp</h1>
         <a href="http://apple.co/2drzgbL" class="projectLink">App Store Link</a>
         <p class="projectDesc"> An iOS application created for Maximum travel Camp which provides communication on all destinations, scheduling, and points of interest. Utilized by staff, parents, and campers. Written in Objective-C, winner of WWDC16 scholarship.
         </p>  
-            
+
         <br>
         <br>
-            
+
         <h1 class="projectHeader">Music Playground</h1>
         <a href="https://github.com/msweet168/MusicPlayground" class="projectLink">GitHub Link</a>
         <p class="projectDesc"> Music Playground is a Swift Playground which I created for my WWDC 17 scholarship submission. Allows you to easily create simple music by using three different shapes which each play a different part of the song. Written in Swift, winner of WWDC17 scholarship. <a href="https://github.com/msweet168/MusicPlayground" > open source on GitHub.</a> <a href="https://www.youtube.com/watch?v=sZf_62qixPQ" >, video demonstration on YouTube.</a>
-        
+
         </p>  
-            
+
         <br>
         <br>
-            
+
+        <h1 class="projectHeader">RIT Theme Park Enthusiasts Website</h1>
+        <a href="http://rittpe.com/" class="projectLink">Website link</a>
+        <p class="projectDesc"> This website, the official website of the Rochester Institute of Technology Theme Park Enthusiasts, is more than just a landing page. While it does feature informative public facing info showcasing the club, it also includes a members-only portal with profiles, newsfeed, club wide chat, and drive. Eboard members can edit member accounts and information on the public site, this way a web developer is not required to update the site's information. Written in PHP, HTML, CSS, and Javascript.<a href="https://github.com/msweet168/rittpe" > open source on GitHub.</a>
+
+        </p>  
+
+        <br>
+        <br>
+
         <h1 class="projectHeader">Roslyn High School</h1>
         <a href="http://apple.co/2cKdmOF" class="projectLink">App Store Link</a>
         <p class="projectDesc"> An iOS application created for Roslyn High School. Allows students to view school information such as the daily schedule, staff directory, and features a homework planner and class reminders. Written in Swift, <a href="https://github.com/msweet168/RHS" >open source on GitHub.</a>
         </p>
-            
+
         <br>
         <br>
-            
-        <h1 class="projectHeader">Sweetdevelop.com</h1>
-        <a href="sweetdevelop.com" class="projectLink">Website Link</a>
-        <p class="projectDesc"> A website that I created to showcase all of my iOS apps that are live on the App Store. Features an apps page with links to all of the apps on the App Store, an about page, and a contact page. Written in HTML and CSS, <a href="https://github.com/msweet168/SweetDevSite" >open source on GitHub.</a>
-        </p>
-            
-        <br>
-        <br>
-            
+
         <h1 class="projectHeader">taskit.info</h1>
         <a href="http://taskit.info" class="projectLink">Website Link</a>
         <p class="projectDesc"> A landing page that I created to promote my iOS app taskIt. Features a description of what the app does, a link to download it, a support page, and a system status page. Written in HTML and CSS, <a href="https://github.com/msweet168/taskItLanding" > open source on GitHub.</a>
         </p>
-            
+
         <br>
         <br>
-            
+
         <h1 class="projectHeader">Mitchellsweet.com</h1>
         <a href="http://mitchellsweet.com" class="projectLink">This website!</a>
         <p class="projectDesc"> A personal website that I created to tell people about what I love to do, projects I have created, and how to contact me. Written in HTML, CSS and JS,<a href="https://github.com/msweet168/PersonalWebsite" > open source on GitHub.</a>
         </p>
-            
+
         <h1 class="aboutHeading" id="lastOne">More of my projects are on <a href="https://github.com/msweet168">my GitHub</a></h1>
-            
-        </div>
-        
-        
-        
+
     </div>
-        
-    <div id="contactDIV">
-        <hr class="sectionSeperator">
-        <h1 class="aboutHeading">School Email: <a  href="mailto:mas6700@rit.edu">mas6700@rit.edu</a></h1>
-        <h1 class="aboutHeading" id="personalEmail">Personal Email: <a  href="mailto:mitchellsweet168@gmail.com">mitchellsweet168@gmail.com</a></h1>
-        
-        <h1 id="email"></h1>
-        
-    </div>
-        
-    </div>
-    
-   </div>
-    
-    
+
+
+
+</div>
+
+<div id="contactDIV">
+    <hr class="sectionSeperator">
+    <h1 class="aboutHeading">School Email: <a  href="mailto:mas6700@rit.edu">mas6700@rit.edu</a></h1>
+    <h1 class="aboutHeading" id="personalEmail">Personal Email: <a  href="mailto:mitchellsweet168@gmail.com">mitchellsweet168@gmail.com</a></h1>
+
+    <h1 id="email"></h1>
+
+</div>
+
+</div>
+
+</div>
+
+
 </body>
-    
+
 </html>
